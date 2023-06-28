@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.libraries                = 'c++'
     spec.ios.deployment_target = '12.4'
     spec.dependency 'nevis-mobile-authentication-sdk-ios-debug', '3.3.0.396'
-                
+    spec.dependency 'nevis-mobile-authentication-sdk-ios', '3.3.0.396'            
                 
                 
 end
